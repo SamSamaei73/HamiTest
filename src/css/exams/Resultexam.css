@@ -1,0 +1,74 @@
+#Resultexam {
+    width: 60rem;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem;
+    /* border: 10px solid #9B325F; */
+    border-radius: 20px;
+}
+#Resultexam button{
+    padding: 0.5rem;
+    width: 10rem;
+    border: none;
+    background-color: #be4f7f;
+    color: #fff;
+    border-radius: 5px;
+    
+}
+#Show6{
+    width: 100%;
+}
+.logotresult {
+    width: 8rem;
+    height: 10rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logotresult img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.formresult{
+    width: 50rem;
+    min-height: 30rem;
+    margin: 3rem 0;
+    border-radius: 20px;
+    border: 10px dotted #9B325F;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+.itemresu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-align: right;
+    direction: rtl;
+    padding: 2rem;
+}
+
+.nameweb{
+    width: 55rem;
+    height: 6rem;
+    border: 6px solid #9B325F;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    direction: rtl;
+    
+}
+.nameweb > h3{
+    margin: 0 0.5rem;
+    
+}

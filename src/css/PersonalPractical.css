@@ -1,0 +1,75 @@
+#PersonalPractical {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 1rem;
+}
+#PersonalPractical .PersonalPracticalTitle{
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    direction: rtl;
+    padding: 0 2rem;
+    color: #780153;
+    border-bottom: 1px solid #780153;
+}
+#PersonalPractical .aboutPersonalPractical{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+#PersonalPractical .aboutPersonalPractical .imgPractical{
+    width: 40rem;
+    height: 25rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+#PersonalPractical  .imgpracticalStyle{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+   
+}
+#PersonalPractical .aboutPersonalPractical .infoPractical{
+    height: 80%;
+    max-width: 50%;
+    border: 2px solid #780153;
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    direction: rtl;
+   padding: 1rem;
+   overflow: hidden;
+   font-size: 20px;
+   line-height: 40px;
+}
+
+@media (max-width: 980px) {
+    #PersonalPractical .aboutPersonalPractical{
+        flex-direction: column;
+    }
+    #PersonalPractical .aboutPersonalPractical .imgPractical{
+        max-width: 85%;
+    }
+    #PersonalPractical .aboutPersonalPractical .infoPractical{
+        max-width: 100%;
+        font-size: 16px;
+    }
+    #PersonalPractical .aboutPersonalPractical .imgPractical img{
+        height: auto;
+    }
+}
+

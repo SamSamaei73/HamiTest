@@ -1,0 +1,27 @@
+$priamary-color: red;
+$img-text: #fff;
+$shadow :  0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;  
+;
+$font-primary : "Morvarid" ;
+
+
+
+
+
+$spaceamount: (1,2,3);
+@each $space in $spaceamount {
+    .my-#{$space}{
+        margin: #{$space}rem 0;
+    }
+}
+
+
+@mixin set-disply {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin set-disply-top {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,194 @@
+@import "utilities";
+
+.Companies{
+    @include set-disply-top;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+
+    .humbergerPlace{
+        position: absolute;
+        right: 0;
+        top: 10rem;
+        z-index: 10;
+    }
+
+    .Addcompany{
+        width: 81%;
+        background-color: #8719554c;
+        box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 2rem 1rem;
+        position: relative;
+        margin: 5rem 0 3rem 0;
+         .selectAdmin{
+            width: 90%;
+            padding: 0.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            direction: rtl;
+            margin-bottom: 1rem;
+            
+             .itemCompany{
+                width: 15rem;
+                height: 5rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 0.5rem;
+            }
+        }
+        
+    }
+
+    .tablePlace{
+      width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.5rem;
+        margin-bottom: 2rem;
+        overflow: auto;
+        direction: rtl;
+
+        table {
+            box-shadow: $shadow;
+        }
+
+       td{
+        box-shadow: none;
+        border: 1px solid #891B58;
+        background-color: #8719552a;
+        padding: 5px;
+
+       }
+        
+        th {
+            background-color: #891B58;
+            color: #fff;
+        }
+        tr:nth-child(even){
+            background-color: #8719556c;
+        }
+        tr:hover{
+            background-color: #5f87196c;
+        }
+
+        .btnCompanyedit{
+            padding: 5px;
+            width: 70%;
+            border-radius: 5px;
+            border: none;
+            background-color: rgb(250, 250, 22);
+            box-shadow: $shadow;
+            cursor: pointer;
+            font-size: 12px;
+            &:active{
+                box-shadow: none;
+            }
+        }
+        .btnCompanyTest{
+            padding: 5px;
+            width: 70%;
+            border-radius: 5px;
+            border: none;
+            background-color: rgb(22, 250, 33);
+            box-shadow: $shadow;
+            font-size: 12px;
+
+            cursor: pointer;
+            &:active{
+                box-shadow: none;
+            }
+        }
+      
+
+    }
+}
+
+.SelectExamCompany{
+    width: 81%;
+    padding: 2rem;
+    border-radius: 5px;
+    background-color: #DABACA;
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+    img{
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    cursor: pointer;
+
+
+    }
+    h3{
+        width: 100%;
+        text-align: center;
+        direction: rtl;
+        margin-bottom: 2rem;
+    }
+    .inputsStyle{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+        .boxExam{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .boxPlace{
+                width: 18rem;
+                height: 17rem;
+                background-color: #fff;
+                border-radius: 5px;
+                display: flex;
+                justify-content: right;
+                align-items: center;
+                flex-direction: column;
+                overflow: auto;
+                padding: 1rem ;
+                box-shadow: $shadow;
+                .items{
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: right;
+                    direction: rtl;
+                    margin-top: 10px;
+                    input.Check {
+                        margin-left: 10px;
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+        }
+    }
+    button {
+        padding: 5px;
+        width: 10rem;
+        margin-top: 2rem;
+        border: none;
+        border-radius: 5px;
+        background-color: greenyellow;
+        box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        &:active{
+        box-shadow: none;
+        }
+    }
+}

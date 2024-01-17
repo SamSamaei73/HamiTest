@@ -1,0 +1,79 @@
+#CompanyAdmin{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#CompanyAdmin .mainAlluser{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    direction: rtl;
+}
+#CompanyAdmin .humbergerAlluser{
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#CompanyAdmin .tableAlluser{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem 0;
+    align-items: center;
+    overflow: scroll;
+}
+#CompanyAdmin .tableAlluser .SelectCompany{
+    width: 90%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+    align-items: center;
+    background-color: #FFC4C4;
+    border-radius: 10px;
+}
+#CompanyAdmin .tableAlluser .SelectCompany .itemCompany{
+    width:25rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem 0;
+    align-items: center;
+}
+#CompanyAdmin .tableAlluser .SelectCompany .itemCompany select{
+    width: 90%;
+    height: 2rem;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+
+}
+#CompanyAdmin .tableAlluser .SelectCompany .itemCompany label{
+    width: 90%;
+
+}
+.adminCom{
+    font-size: 25px;
+}
+
+.StyleImageAdd1{
+    width: 3rem;
+    height: 3rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.StyleImageAdd1 img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    cursor: pointer;
+}

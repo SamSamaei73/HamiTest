@@ -1,0 +1,394 @@
+/* #Login {
+    width: 100%;
+    font-display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+#Login .LoginBox{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem ;
+    margin-top: -2rem;
+}
+#Login .LoginBox .LoginLogo{
+    width: 5rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 0.7rem;
+}
+#Login .LoginBox .LoginLogo img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#Login .LoginBox .LoginLogo .logoLogin{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+*,:after,:before{box-sizing:border-box}
+.clearfix:after,.clearfix:before{content:'';display:table}
+.clearfix:after{clear:both;display:block}
+a{color:inherit;text-decoration:none}
+
+.login-wrap{
+	width:100%;
+	margin:auto;
+	max-width:525px;
+	min-height:670px;
+	position:relative;
+	background:url(../images/iStock.jpeg) no-repeat center center/cover;
+	box-shadow:0 12px 15px 0 rgba(0,0,0,.24),0 17px 50px 0 rgba(0,0,0,.19);
+}
+.login-html{
+	width:100%;
+	height:100%;
+	position:absolute;
+	padding:90px 70px 50px 70px;
+	background:#be8c63b4;
+}
+.login-html .sign-in-htm,
+.login-html .sign-up-htm{
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	position:absolute;
+	transform:rotateY(180deg);
+	backface-visibility:hidden;
+	transition:all .4s linear;
+}
+.login-html .sign-in,
+.login-html .sign-up,
+.login-form .group .check{
+	display:none;
+}
+.login-html .tab,
+.login-form .group .label,
+.login-form .group .button{
+	text-transform:uppercase;
+}
+.login-html .tab{
+	font-size:22px;
+	margin-right:15px;
+	padding-bottom:5px;
+	margin:0 15px 10px 0;
+	display:inline-block;
+	border-bottom:2px solid transparent;
+    cursor: pointer;
+}
+.login-html .sign-in:checked + .tab,
+.login-html .sign-up:checked + .tab{
+	color:#fff;
+	border-color:#F1E1A6;
+}
+.login-form{
+	min-height:345px;
+	position:relative;
+	perspective:1000px;
+	transform-style:preserve-3d;
+    margin-top: 2rem;
+}
+.login-form .group{
+	margin-bottom:15px;
+}
+.login-form .group .label,
+.login-form .group .input,
+.login-form .group .button{
+	width:100%;
+	color:#111;
+	display:block;
+}
+.login-form .group .input,
+.login-form .group .button{
+	border:none;
+	padding:15px 20px;
+	border-radius:25px;
+	background:rgba(255, 255, 255, 0.685);
+}
+.login-form .group input[data-type="password"]{
+	text-security:circle;
+	-webkit-text-security:circle;
+}
+.login-form .group .label{
+	color:rgb(255, 255, 255);
+	font-size:12px;
+}
+.login-form .group .button{
+	background:#F1E1A6;
+}
+.login-form .group .buttonSign{
+	margin-top: 3rem !important;
+}
+.login-form .group label .icon{
+	width:15px;
+	height:15px;
+	border-radius:2px;
+	position:relative;
+	display:inline-block;
+	background:rgba(255,255,255,.1);
+}
+.login-form .group label .icon:before,
+.login-form .group label .icon:after{
+	content:'';
+	width:10px;
+	height:2px;
+	background:#fff;
+	position:absolute;
+	transition:all .2s ease-in-out 0s;
+}
+.login-form .group label .icon:before{
+	left:3px;
+	width:5px;
+	bottom:6px;
+	transform:scale(0) rotate(0);
+}
+.login-form .group label .icon:after{
+	top:6px;
+	right:0;
+	transform:scale(0) rotate(0);
+}
+.login-form .group .check:checked + label{
+	color:#fff;
+}
+.login-form .group .check:checked + label .icon{
+	background:#20a8dd;
+}
+.login-form .group .check:checked + label .icon:before{
+	transform:scale(1) rotate(45deg);
+}
+.login-form .group .check:checked + label .icon:after{
+	transform:scale(1) rotate(-45deg);
+}
+.login-html .sign-in:checked + .tab + .sign-up + .tab + .login-form .sign-in-htm{
+	transform:rotate(0);
+}
+.login-html .sign-up:checked + .tab + .login-form .sign-up-htm{
+	transform:rotate(0);
+}
+
+.hr{
+	height:2px;
+	margin:60px 0 50px 0;
+	background:rgba(255,255,255,.2);
+}
+.foot-lnk{
+	text-align:center;
+}
+
+
+ */
+
+
+
+
+/* ///////////////////////////////////////////////Loginphone/////////////////////////////////////////////////////// */
+
+#LoginPhone {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+}
+#LoginPhone .SpinnerLogin{
+	width: 100%;
+	min-height: 100vh;
+	background-color: #212121a9;
+	position: absolute;
+	z-index: 100;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#LoginPhone .SpinnerLoginH{
+	display: none;
+}
+
+#LoginPhone .LoginSpace{
+	width: 95%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;padding: 1rem 0;
+}
+ .LoginSignIn{
+	width: 95%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;padding: 1rem 0;
+}
+ .LoginSignInH{
+	display: none;
+}
+
+ .LoginSpaceVerify{
+	width: 95%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;padding: 1rem 0;
+}
+ .LoginSpaceVerifyH{
+	display: none;
+}
+#LoginPhone .titleLogin{
+	width: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: right;
+	border-bottom: 1px solid #b34f7561;
+	padding: 0.5rem 1rem;
+	color: #B34F76;
+
+}
+#LoginPhone .mainInputLogin{
+	width: 50%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 0.5rem;
+	margin-top: 1rem;
+
+}
+#LoginPhone .mainInputLogin h5{
+	margin-top: 1rem;
+	color: red;
+
+}
+#LoginPhone .mainInputLogin .forgetpass{
+	width: 30rem;
+	margin-top: 1rem;
+	color: #B34F76;
+	text-align: right;
+
+}
+#LoginPhone .mainInputLogin .Signup{
+	background-color: rgb(113, 185, 5);
+
+}
+#LoginPhone .guideLogin{
+	width: 30rem;
+	height: 3rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	direction: rtl;
+	text-align: center;
+	border: 1px dotted #b34f7561;	
+
+}
+#LoginPhone .guideLogin p{
+	margin-bottom: 0rem;
+
+}
+#LoginPhone .inputPhone{
+	width: 30rem;
+	display: flex;
+	align-items: center;
+	justify-content: right;
+	flex-direction: column;
+	padding: 0.5rem 1rem;
+	margin: 0.5rem 0;
+
+}
+#LoginPhone label{
+	width: 30rem;
+	text-align: left;
+	margin-bottom: 0.5rem;
+
+}
+.inputPhone .inputLogin{
+	width: 30rem;
+	height: 3rem;
+	border-radius: 5px;
+	border-color:#b34f7561 ;
+	text-align: left;
+	padding-left: 0.7rem ;
+	margin-bottom: 0.5rem;
+	font-size: 20px;
+	
+
+}
+.timer{
+	width: 5rem;
+	height: 5rem;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2rem;
+	color: rgb(106, 255, 47);
+}
+.Loader{
+	width: 5rem;
+	height: 5rem;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2rem;
+}
+.LoaderH{
+	display: none;
+}
+#LoginPhone button{
+	width: 30rem;
+	height: 3rem;
+	border-radius: 5px;
+	border: none;
+	background-color: #B34F76;
+	color: #fff;
+	cursor: pointer;
+	margin: 0.5rem 0;
+}
+#LoginPhone .secondBtn{
+	color: #B34F76;
+	background-color: #fff;
+	border: 1px solid #b34f7561;
+}
+
+#LoginPhone button:hover{
+
+	background-color: #d23d76;
+	
+}
+
+
+@media (max-width: 566px){
+	
+	.inputPhone .inputLogin{
+		width: 85%;
+	
+	}
+	#LoginPhone .mainInputLogin .forgetpass{
+		width: 85%;
+		margin-top: 1rem;
+		color: #B34F76;
+		text-align: right;
+	
+	}
+	#LoginPhone label{
+		width: 85%;
+		text-align: left;
+		margin-bottom: 0.5rem;
+	
+	}
+	#LoginPhone button{
+		width: 18rem;
+	}
+	#LoginPhone .guideLogin{
+		width: 25rem;
+		font-size: 15px;
+	}
+}

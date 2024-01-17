@@ -1,0 +1,340 @@
+#NameQ6{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    height: 100rem;
+}
+#NameQ6 .allStayleQ{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+#NameQ6 .allStayleH{
+    display: none;
+   
+}
+.FirstBackground6 {
+    background-color: #fff;
+  }
+  .SecondBackground6 {
+    background-color: rgba(85, 246, 255, 0.083);
+  }
+#Qtitle{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    font-family: "Yekan";
+}
+#NameQ6{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+
+
+
+#Qtitle .testTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    border-bottom: 1px solid rgb(244, 187, 187);
+    margin-top: 1rem;
+}
+
+#NameQ6 #qtest6{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    direction: rtl;
+    color: rgb(0, 0, 0);
+    font-family: 'Yekan';
+    text-align: center;
+    line-height: 17px;
+    padding: 0 1rem;
+    margin-bottom: 0.5rem;
+}
+#NameQ6 #qtest6 h4{
+    line-height: 45px;
+    width: 70%;
+    text-align: right;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+#NameQ6 .answerStyle{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    direction: rtl;
+    justify-content: start;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    color: black;
+}
+#NameQ6 .answerStyle .optionItem{
+    height: 5rem;
+    width: 28rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem;
+    flex-direction: row;
+    text-align: right;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+}
+#NameQ6 .answerStyle .optionItem h5{
+    margin: 0 1rem;
+}
+#NameQ6 .answerStyle  .ticket{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 0.5rem;
+}
+
+ .resultTest{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#resultButton {
+    padding: 0.5rem;
+    width: 12rem;
+    margin: 0.5rem;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(244, 187, 187);
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+}
+#qtestProgress{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    direction: rtl;
+    color: rgb(0, 0, 0);
+    font-family: 'Yekan';
+    text-align: center;
+    line-height: 17px;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+}
+.QuastionHalan{
+    text-align: right;
+    font-size: 20px;
+    line-height: 35px;
+}
+.AnswerProgress{
+    width: 100%;
+    margin: 0.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.AnswerProgress .answerStyle5{
+    width: 100%;
+    margin: 0.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.AnswerProgress .answerStyle5 .optionItem{
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+    direction: ltr;
+}
+.AnswerProgress .answerStyle5 .answerRange{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    direction: ltr;
+}
+.AnswerProgress .answerStyle5 .answerRange .rangeNumber{
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.AnswerProgress .HalandLabel{
+    display: flex;
+    padding-right: 35px;
+    justify-content: right;
+} 
+.AnswerProgress  .HalandRange{
+    width: 100%;
+}
+
+
+
+#AnswerStyle16 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.InfoStayle{
+    width: 90%;
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #9B325F;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.ChartStyle6{
+    width: 90%;
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #9B325F;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 5rem;
+}
+
+.ChartStyle6 .chartBox {
+    width: 80%;
+    margin: 10px 0;
+    position: relative;
+    background-color: #9B325F;
+    padding: 2rem;
+
+
+}
+
+.IconAnswer6{
+    width: 90%;
+    height: 1080px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 3px solid #9B325F;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+    border-radius: 10px;
+
+}
+
+#AnswerStyle16  {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#AnswerStyle16 .boxAnswer {
+    background-color: rgb(255, 214, 127);
+    width: 15rem;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    margin: 0.5rem 0.5rem;
+}
+#AnswerStyle16 .boxAnswerH {
+    display: none;
+}
+.TextResult6 {
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0;
+    color: brown;
+
+}
+#AnswerStyle16 .boxAnswer .photoTemplate{
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: brown;
+}
+#AnswerStyle16 .boxAnswer .photoTemplate img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+#AnswerStyle16 .boxAnswer .pointExam{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    direction: rtl;
+    margin-bottom: 0.25rem;
+}
+
+.BtnAnswer6{
+    width: 80%;
+    height: 5rem;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resulNam6{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+@media (max-width: 800px) {
+    #NameQ6 #qtest6 h4{
+       
+        font-size: 16px;
+        line-height: 25px;
+    }
+    #NameQ6 .answerStyle{
+        width: 100%;
+   
+    }
+    #NameQ6 .answerStyle .optionItem h5{
+       font-size: 14px;
+    }
+  
+   
+}
+
+

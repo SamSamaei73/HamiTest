@@ -1,0 +1,131 @@
+#Articles {
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    flex-direction: column;
+}
+#Articles  .articleTitle{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    border-bottom: 1px solid #780153;
+    color: #780153;
+    margin-bottom: 2rem;    
+}
+#Articles  section{
+    width: 100%;
+    height: 27rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+   
+}
+
+#Articles  section .sectionArt{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.5rem; 
+}
+#Articles .BigArt {
+    width: 30%;
+    border-radius: 5px;
+    position: relative;
+}
+#Articles .BigArt img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+#Articles .spectioal {
+    width: 50%;
+    background: url(../images/cover.png) no-repeat center center/cover;
+}
+#Articles .sectionArtInfo {
+    width: 70%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    direction: rtl;
+    line-height: 30px;
+}
+#Articles .sectionArtInfo h5 {
+   
+    line-height: 35px;
+}
+
+
+@media (max-width: 565px) {
+    #Articles  .articleTitle{
+
+        justify-content: center;
+       
+    }
+    #Articles  section{
+        width: 100%;
+        height: 40rem;
+       flex-direction: column;
+       
+    }
+    #Articles  section .sectionArt{
+
+        margin: 2px 0.5rem;
+       
+    }
+    #Articles .BigArt {
+        width: 90%;
+ 
+    }
+    #Articles .BigArt img{
+        width: 100%;
+        height: 15rem;
+    }
+    #Articles .spectioal {
+        width: 100%;
+    }
+ 
+    #Articles .sectionArtInfo h5 {
+       font-size: 12px;
+       line-height: 20px;
+    }
+}
+@media (min-width: 565px) and (max-width: 1200px) {
+    #Articles {
+        height: 45rem;
+    }
+    #Articles .sectionArtInfo h5 {
+        font-size: 15px;
+        line-height: 30px;
+     }
+     #Articles  section{
+        width: 100%;
+        height: 30rem;
+       flex-direction: column;
+       
+    }
+    #Articles .spectioal {
+        width: 90%;
+    }
+    #Articles .BigArt {
+        width: 20rem;
+        margin-bottom: 3rem;
+        
+    }
+    #Articles  section .sectionArt{
+        margin: 1rem;
+        margin-top: 2rem;
+    }
+    #Articles .spectioal {
+        height: 25rem;
+    }
+}
+
+

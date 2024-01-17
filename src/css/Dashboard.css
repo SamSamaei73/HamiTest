@@ -1,0 +1,70 @@
+#Dashboard {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#Dashboard .dashboardStyl{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    padding: 1rem;
+}
+
+#Dashboard .dashboardStyl .navbarDash1{
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 0.5rem;
+    position: relative;
+    margin-bottom: 26rem;
+    margin-right: -1rem;
+    padding: 0.5rem;
+}
+#Dashboard .dashboardStyl .bg-light{
+    background-color: #fff !important;
+}
+.offcanvas{
+   background-color: #e2c2b9;
+   direction: rtl;
+}
+
+.dropdown-menu{
+    background-color: #e2c2b9;
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+}
+.dropdown-item{
+    background-color: #e2c2b9;
+   direction: rtl;
+   text-align: right !important;
+}
+.offcanvas-body .d-flex {
+    margin-top: 2rem !important;
+}
+.d-flex .btn-outline-success{
+    width: 4rem !important;
+    color: #BE8C63 ;
+    border-color: #BE8C63 !important;
+    padding: 0.5rem;
+}
+.d-flex .btn-outline-success:hover{
+    color: #fff ;
+    background-color: #BE8C63 !important;
+}
+
+@media (max-width:560px){
+    #Dashboard .dashboardStyl{
+        flex-direction: column;
+        justify-content: right;
+    }
+    .navbarDash1{
+        order: 1;
+        margin-bottom: 1rem !important;
+        left: 10rem;
+    }
+   
+}

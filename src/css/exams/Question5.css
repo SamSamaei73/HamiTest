@@ -1,0 +1,149 @@
+#Question5{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    height: 100rem;
+}
+.FirstBackground5 {
+    background-color: #fff;
+  }
+  .SecondBackground5 {
+    background-color: rgba(85, 113, 255, 0.17);
+  }
+#Qtitle{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+#NameQ5{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    
+}
+
+
+#Qtitle .testTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    border-bottom: 1px solid rgb(244, 187, 187);
+    margin-top: 1rem;
+    
+}
+
+#NameQ5 .Answer5 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    direction: rtl;
+}
+
+#NameQ5 .answerStyle5 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0.5rem;
+}
+#NameQ5 .optionItem {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+    direction: ltr;
+}
+#NameQ5 .optionItem h5 {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+    direction: rtl;
+}
+#NameQ5 .answerRange {
+    width: 15.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0.5rem;
+
+}
+#NameQ5 .rangeNumber {
+    width: 100%;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-left: 7px;
+}
+#NameQ5 label {
+    width: 100%;
+    display: flex;
+    margin-right:  29px ;
+}
+#NameQ5 input {
+    width: 100%;
+    
+    box-shadow: 12px 12px 24px #979797, -12px -12px 24px #fff;
+
+}
+
+#NameQ5 #resultButton {
+    padding: 0.5rem;
+    width: 12rem;
+    margin: 0.5rem;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(244, 187, 187);
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       font-family: "Yekan";
+
+}
+
+
+
+
+
+@media (max-width: 800px) {
+    #Question5 #qtest h4{
+       
+        font-size: 16px;
+        line-height: 25px;
+    }
+    #Question5 .answerStyle{
+        width: 100%;
+   
+    }
+    #Question5 .answerStyle .optionItem h5{
+       font-size: 10px;
+    }
+
+    #NameQ5 .optionItem {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0.5rem;
+        direction: ltr;
+    }
+  
+   
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,138 @@
+
+#Slider {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom:1rem;
+    flex-direction: column;
+}
+#Slider .slideStyl{
+    width: 100%;
+    max-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+#Slider .photoSlide{
+    height: auto;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+#Slider .photoSlide img{
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    z-index:-1;
+}
+#Slider .photoSlide .shadowSlide{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(11, 11, 11, 0);
+}
+#Slider .photoSlide .slideInfo{
+    padding: 0.5rem 3rem;
+    margin-top: 10rem;
+    background-color: #f1e1a6b2;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    z-index: 100;
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+#Slider .photoSlide .slideInfo:hover {
+    background-color: #f1e1a6;
+    border-radius: 20px;
+    box-shadow: none;
+}
+
+.motionSlide{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    position: relative;
+    bottom: 9rem;
+}
+
+@keyframes move_wave {
+    0% {
+        transform: translateX(0) translateZ(0) scaleY(1)
+    }
+    50% {
+        transform: translateX(-25%) translateZ(0) scaleY(0.55)
+    }
+    100% {
+        transform: translateX(-50%) translateZ(0) scaleY(1)
+    }
+}
+.waveWrapper {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+}
+.waveWrapperInner {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    bottom: -1px;
+}
+.bgTop {
+    z-index: 15;
+    opacity: 0.5;
+    }
+.bgMiddle {
+    z-index: 10;
+    opacity: 0.75;
+}
+.bgBottom {
+    z-index: 5;
+}
+.wave {
+    position: absolute;
+    left: 0;
+    width: 200%;
+    height: 100%;
+    background-repeat: repeat no-repeat;
+    background-position: 0 bottom;
+    transform-origin: center bottom;
+}
+.waveTop {
+    background-size: 50% 100px;
+}
+.waveAnimation .waveTop {
+  animation: move-wave 3s;
+   -webkit-animation: move-wave 3s;
+   -webkit-animation-delay: 1s;
+   animation-delay: 1s;
+}
+.waveMiddle {
+    background-size: 50% 120px;
+}
+.waveAnimation .waveMiddle {
+    animation: move_wave 10s linear infinite;
+}
+.waveBottom {
+    background-size: 50% 100px;
+    background-color: #ffffff;
+    height: 7rem;
+    margin-top: 8rem;
+}
+.waveAnimation .waveBottom {
+    animation: move_wave 15s linear infinite;
+}
+
+@media (max-width: 565px) {
+    .motionSlide{
+        display: none;
+    }
+}

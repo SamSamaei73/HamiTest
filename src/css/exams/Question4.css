@@ -1,0 +1,297 @@
+#Question4 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    height: 100rem;
+  }
+#Question4 h4 {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  }
+  #Question4 .allStayleQ{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+#Question4 .allStayleQ{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+#Question4 .allStayleH{
+  display: none;
+ 
+}
+#Question4 .allStayleH{
+    display: none;
+   
+}
+  #Qtitle {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+  }
+  #NameQ4 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  
+  #Question4 .resultTest {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  
+  #resultButton {
+    padding: 0.5rem;
+    width: 12rem;
+    margin: 0.5rem;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(244, 187, 187);
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3),
+      0 0 40px rgba(0, 0, 0, 0.1) inset;
+  }
+  
+  #MAxMinStyle {
+    width: 100%;
+    height: 22rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    direction: rtl;
+    color: black;
+    font-family: "Yekan";
+    text-align: center;
+    line-height: 17px;
+    padding: 0 1rem;
+    margin-bottom: 2px;
+
+
+  }
+  #MAxMinStyleHide {
+    display: none;
+
+  }
+  .FirstBackground4 {
+    background-color: #fff;
+  }
+  .SecondBackground4 {
+    background-color: #d7c0d558;
+  }
+  #MAxMinStyle .AnswerMaxMin {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    flex-direction: column;
+    padding: 2px;
+
+
+  }
+  #MAxMinStyle .AnswerMaxMin .partition {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+
+  }
+  
+  #MAxMinStyle .AnswerMaxMin .partition .answerMaxmin {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+  #MAxMinStyle .AnswerMaxMin .partition .answerMaxmin .leftAnswer {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  #MAxMinStyle .AnswerMaxMin .partition .questuionMaxmin {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  #Question4 .answerMaxmin .ticket {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 3px solid rgb(90, 150, 228);
+    cursor: pointer;
+    font-family: "Yekan";
+  }
+  
+ 
+  #Question4 .chartStayl {
+    width: 90%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  #Question4 .chartStayl .app{
+    width: 70%;
+    background-color: aqua;
+    
+    
+  }
+  #Question4 .chartStayl .chartBox{
+    width: 50%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+  }
+  
+  #Question4 .chartStaylH {
+    display: none;
+  }
+
+  #Question4 .scroll {
+    overflow: auto;
+    /* overflow-y:scroll; */
+    /* overflow-x:scroll; */
+    width: 60%;
+    border-radius: 10px;
+    background-color: #d3c595 ;
+    color: #fff;
+    margin: auto;
+    margin-bottom: 3rem;
+  
+   
+  }
+   #Question4 th {
+    font-size: 16px;
+    text-align: center !important;
+    text-transform: uppercase;
+    padding: 4px 4px;
+    color: #fff;
+    background-color: #F1E1A6;
+  }
+
+  #Question4 tbody tr td {
+    text-align: center;
+    padding: 10px 5px;
+    color: #fff;
+    margin: 0;
+    font-size: 13px !important;
+    overflow: auto;
+    text-transform: uppercase;
+    
+  }
+
+  #Question4 tr:nth-child(even) {background-color: #b9ab79;}
+
+  
+ 
+@media (max-width: 800px) {
+  #MAxMinStyle h4 , h5{
+    font-size: 13px;
+  }
+  #MAxMinStyle .AnswerMaxMin {
+  
+    width: 100%;
+    
+
+  }
+ 
+}
+
+
+.InfoStayleDisck{
+  width: 90%;
+  height: 340mm;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #9B325F;
+  border-radius: 10px;
+  flex-direction: column;
+}
+  
+.ChartStyleDisc1{
+  width: 90%;
+  height: 340mm;
+  margin-top: 2rem;
+  margin-bottom: 2rem;  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #9B325F;
+  flex-direction: column;
+  border-radius: 10px;
+ 
+}
+.ChartStyleDisc2{
+  width: 90%;
+  height: 340mm;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #9B325F;
+  flex-direction: column;
+  border-radius: 10px;
+  
+}
+.ChartStyleDiscgage{
+  width: 97%;
+  height: 340mm;
+  margin-top: 4rem;
+  margin-bottom: 2rem;  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 3px solid #9B325F;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+ 
+}
+.TableResult{
+  height: 6650px;
+  padding-top: 8rem;
+  
+}
+.gaugePart{
+  width: 22rem !important;
+  height: 15rem;
+}
+
+.pdfStyle {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+

@@ -1,0 +1,64 @@
+#Gauge {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+#Gauge .GaugeTitle{
+    width:50%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: red;
+}
+#Gauge .GaugeTitle label{
+    direction: rtl;
+}
+#Gauge .GaugeTitle input{
+    text-align: right;
+    padding: 0 0.5rem;
+    width: 10rem;
+    margin: 0 0.5rem;
+    border: none;
+}
+#Gauge .GaugeTitle input:focus{
+    border: none;
+    outline: 0;
+}
+#Gauge .mainForGauge {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+#Gauge .mainForGauge .gaugePart{
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#Gauge .mainForGauge .gaugeInfo{
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Gauge .mainForGauge .gaugeInfo input{
+    text-align: right;
+    padding: 0 0.5rem;
+    width: 3rem;
+    margin: 0 0.5rem;
+    border: none;
+}
+#Gauge .mainForGauge .gaugeInfo input:focus{
+    border: none;
+    outline: 0;
+}

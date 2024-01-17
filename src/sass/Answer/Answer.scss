@@ -1,0 +1,158 @@
+@import 'Tools';
+
+
+#IconAnswer6 {
+    @include answer-disply;
+    width: 100%;
+    padding: 1rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 18rem;
+    
+    .boxAnswer{
+        @include answer-disply;
+        width: 13rem;
+        flex-direction: column;
+        margin: 1rem 0;
+        border-radius: 10px;
+        padding: 0 1rem;
+
+
+
+        .photoTemplate {
+            width: 75%;
+            height: 50%;
+            @include answer-disply ;
+            justify-content: center;
+            position: relative;
+
+            img {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+            }
+        }
+
+        .pointExam {
+            width: 50%;
+            height: 20%;
+            @include answer-disply;
+            justify-content: center;
+            direction: rtl;
+            padding-top: 1rem;
+            font-family: 'Tanha';
+            text-align: center;
+        }
+        .nameAnswer {
+            width: 100%;
+            height: 20%;
+            @include answer-disply;
+            justify-content: center;
+            direction: rtl;
+            text-align: center;
+
+        }
+    }
+}
+#IconAnswer {
+    @include answer-disply;
+    width: 100%;
+    padding: 1rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 18rem;
+    
+    .boxAnswer{
+        @include answer-disply;
+        width: 13rem;
+        height: 18rem;
+        flex-direction: column;
+        margin: 1rem 0;
+        border-radius: 10px;
+        box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; 
+
+
+
+        .photoTemplate {
+            width: 75%;
+            height: 50%;
+            @include answer-disply ;
+            justify-content: center;
+            position: relative;
+
+            img {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+            }
+        }
+
+        .pointExam {
+            width: 50%;
+            height: 20%;
+            @include answer-disply;
+            justify-content: center;
+            box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;  border-radius: 5px;
+            direction: rtl;
+            padding-top: 1rem;
+            font-family: $font-number;
+            text-align: center;
+            font-family: 'Tanha';
+
+        }
+        .nameAnswer {
+            width: 100%;
+            height: 20%;
+            @include answer-disply;
+            justify-content: center;
+            direction: rtl;
+            text-align: center;
+
+        }
+    }
+}
+
+
+#Answer {
+    width: 100%;
+    @include answer-disply ;
+    flex-direction: column;
+
+    .BtnAnswer {
+        width: 100%;
+        height: 4rem;
+        margin-bottom: 2rem;
+        @include answer-disply;
+        justify-content: center;
+
+        button {
+            @include Btn-stayl;
+            
+        }
+        :focus {
+            box-shadow: none;
+        }
+    }
+}
+#Answer6 {
+    width: 80%;
+    @include answer-disply ;
+    flex-direction: column;
+
+    .BtnAnswer {
+        width: 100%;
+        height: 4rem;
+        margin-bottom: 2rem;
+        @include answer-disply;
+        justify-content: center;
+
+        button {
+            @include Btn-stayl;
+            
+        }
+        :focus {
+            box-shadow: none;
+        }
+    }
+}
+

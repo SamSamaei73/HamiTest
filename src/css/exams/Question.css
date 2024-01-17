@@ -1,0 +1,237 @@
+#Question{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    height: 100rem;
+}
+#Question .allStayleQ{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+#Question .allStayleH{
+    display: none;
+   
+}
+
+.FirstBackground1 {
+    background-color: #fff;
+  }
+  .SecondBackground1 {
+    background-color: #c4efc072;
+  }
+#Qtitle{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    z-index: 100;
+}
+#Qtitle h2{
+    direction: rtl;
+}
+#NameQ{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+#Answer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+#Qtitle .testTitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    border-bottom: 1px solid #F582A7;
+    margin-top: 1rem;
+}
+
+#Qtitle .answerTest{
+    width: 10rem ;
+    height: 10rem ;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    font-size: 15px;
+}
+#Qtitle .answerTest img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+#Qtitle .answerTest .topAnswer {
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    font-size: 20px;
+
+}
+#Qtitle .answerTest .downAnswer{
+    width: 2rem;
+    height: 2rem;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: red;
+
+}
+#Qtitle .answerTest .stylePhoto{
+    width: 2rem;
+    
+}
+#Question #qtest{
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    direction: rtl;
+    color: rgb(0, 0, 0);
+    font-family: 'Yekan';
+
+}
+
+
+
+#Question .answerStyle{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    direction: rtl;
+    margin-top: 1rem;
+    color: black;
+
+
+}
+
+#Question .answerStyle .optionItem{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    direction: ltr;
+ 
+
+}
+#Question .answerStyle  .ticket{
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    border: 3px solid rgb(90, 150, 228);
+    cursor: pointer;
+    margin-right: 1rem;
+
+}
+
+#Question .resultTest{
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#resultButton {
+    padding: 0.5rem;
+    width: 12rem;
+    margin: 0.5rem;
+    border-radius: 10px;
+    border: 0;
+    background-color: #F582A7;
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+}
+
+
+@media (min-width:560px) and (max-width: 1000px) {
+    #Question #qtest h4{
+       
+        font-size: 16px;
+        line-height: 25px;
+    }
+    #Question .answerStyle{
+        width: 100%;
+   
+    }
+    #Question .answerStyle .optionItem h5{
+       font-size: 14px;
+    }
+  
+    #Qtitle .answerTest{
+        width: 8rem ;
+        height: 7rem ;
+        margin-top: 0.5rem;
+       
+    }
+    #Qtitle .answerTest .topAnswer {
+      
+        margin-bottom: 0.8rem;
+       
+    }
+}
+
+@media (max-width: 560px) {
+    #Qtitle .answerTest{
+        width: 6rem;
+        height: 6rem;
+    }
+    #Qtitle .answerTest .topAnswer {
+        margin-bottom: 0.5rem;
+        font-size: 15px;
+
+    }
+    #Qtitle .answerTest .downAnswer{
+        font-size: 15px;
+
+    }
+}
+
+.ChartStyleQ{
+    width: 90%;
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #9B325F;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+}
+.ChartStyle1{
+    width: 90%;
+    height: 980px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #9B325F;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 4rem;
+    margin-top: 3rem;
+}
+
+

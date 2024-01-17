@@ -1,0 +1,63 @@
+#ListExams {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#ListExams .dashboardStyl{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    padding: 1rem;
+}
+#ListExams .eXamStyle{
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+}
+#ListExams .dashboardStyl .navbarDash{
+    width: 5rem;
+    height: 96rem;
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+    margin-right: -1rem;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+#ListExams .dashboardStyl .bg-light{
+    background-color: #fff !important;
+    bottom: 1.6rem;
+}
+.offcanvas{
+   background-color: #e2c2b9;
+   direction: rtl;
+}
+.nav-link{
+    color: black !important;
+    text-decoration: none !important;
+}
+.dropdown-menu{
+    background-color: #e2c2b9;
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+}
+.dropdown-item{
+    background-color: #e2c2b9;
+   direction: rtl;
+   text-align: right !important;
+}
+.offcanvas-body .d-flex {
+    margin-top: 2rem !important;
+}
+.d-flex .btn-outline-success{
+    width: 4rem !important;
+    color: #BE8C63 ;
+    padding: 0.5rem;
+}
+.d-flex .btn-outline-success:hover{
+    color: #fff ;
+    background-color: rgba(127, 255, 212, 0) !important;
+    
+}

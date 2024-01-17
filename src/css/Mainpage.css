@@ -1,0 +1,38 @@
+#Mainpage{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Mainpage #bushes{
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Mainpage .photomain{
+    width: 90%;
+    height: 40rem;
+    position: relative;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Mainpage .photomain img{ 
+    width: 100%;
+    height: 100%;
+    position: absolute;    
+}
+
+
+
+@media (max-width: 565px) {
+    #Mainpage #bushes{
+        width: 100%;
+        height: 10rem;
+        display: flex;
+       
+    }
+}

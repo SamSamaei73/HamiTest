@@ -1,0 +1,248 @@
+#ArticlesHamitest {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+ .artHami{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    border-bottom: 1px solid #780153;
+    color: #780153;
+    padding: 5px 1rem;
+    margin-bottom: 1rem;
+}
+ .artMain{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem 0.5rem;
+    flex-wrap: wrap;
+
+}
+ .artMain .artBox{
+    width: 35rem;
+    height: 15rem;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    cursor: pointer;
+    padding: 0.5rem;
+    margin: 1rem 0.5rem;
+}
+ .artMain .artBox:hover{
+
+}
+ .artMain .artBox .infoArticale{
+    width: 55%;
+    height: 100%;
+   overflow: hidden;
+   display: flex;
+   align-items: center;
+   text-align: right;
+   flex-direction: column;
+
+}
+ .artMain .artBox .infoArticaletitle{
+    width: 100%;
+    height: 3rem;
+   display: flex;
+   align-items: center;
+   text-align: right;
+   justify-content: right;
+   padding: 1px 7px;
+   color: red;
+
+}
+ .artMain .artBox .infoArticaleMain{
+    width: 100%;
+    height: 80%;
+   display: flex;
+   align-items: center;
+   text-align: right;
+   justify-content: right;
+   direction: rtl;
+   padding: 1rem;
+   overflow: hidden;
+
+}
+ .artMain .artBox .imagearticle{
+    width: 45%;
+    height: 100%;
+   overflow: hidden;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+   border-radius: 20px;
+
+}
+ .artMain .artBox .imagearticle img{
+   width: 100%;
+   height: 100%;
+   position: absolute;
+
+}
+ .btnArticle{
+   width: 100%;
+   height: 3rem;
+   margin-bottom: 3rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+ .btnArticleStyle{
+    padding: 0.5rem;
+    width: 15rem;
+    margin: 0.5rem;
+    border-radius: 4px;
+    border: 0;
+    background-color: #891B58;
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    color: #fff;
+
+}
+ .btnArticleStyle:active{
+    box-shadow: none;
+}
+
+.popupMainArticle {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    padding: 0.5rem;
+    align-items: flex-start;
+    justify-content:start;
+    overflow: scroll;
+}
+.popupMainArticle .popoupImageArti {
+    width: 40%;
+    height: 20rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+
+}
+.popupMainArticle .popoupImageArti img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 20px;
+
+}
+.popupMainArticle .popoupInfoArti {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+
+    
+}
+.popupMainArticle .popoupInfoArti .titleArtPop {
+    width: 100%;
+    height: 3rem;
+    border-bottom: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    color: yellow;
+}
+.popupMainArticle .popoupInfoArti .infoMainArtPop {
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: right;
+    direction: rtl;
+    overflow: auto;
+    cursor: s-resize ;
+
+}
+.popupMainArticle .popoupInfoArti .infoMainArtPop p{
+    line-height: 50px;
+    
+    
+
+}
+
+
+
+
+
+
+@media (min-width:970px) and (max-width:1250px){
+     .artMain .artBox .infoArticaletitle h6{
+        font-size: 12px;
+    }
+}
+@media (max-width: 565px) and (max-width:970px){
+     .artMain .artBox .infoArticaletitle h6{
+        font-size: 9px;
+        overflow: hidden;
+    }
+     .artMain .artBox .infoArticaleMain p{
+        font-size: 11px;
+    
+    }
+}
+@media (max-width: 565px) {
+    .popupMainArticle {
+        flex-direction: column;
+    }
+    .popupMainArticle .popoupImageArti {
+        width: 90%;
+        height: 10rem;
+    }
+    .popupMainArticle .popoupInfoArti {
+        width: 100%;
+    }
+    .popupMainArticle .popoupInfoArti .infoMainArtPop {
+        width: 100%;
+        height: 30rem;
+
+    }
+
+
+     .artMain{
+        flex-direction: column;
+    }
+     .artMain .artBox{
+        width: 100%;
+        height: 10rem;
+    }
+
+
+
+}
+
+
+
+
+
+/* /////////////////////////////////////////////////PageArticles///////////////////////////////////////////////////////// */
+
+
+#PageArticles{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#PageArticles .MainPageArticle{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

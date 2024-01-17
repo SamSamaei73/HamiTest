@@ -1,0 +1,108 @@
+#whyHami {
+    width: 100%;
+    height:90rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    margin-top: -10rem;
+}
+#whyHami .WhyTitle{
+    width: 60%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid #790153;
+}
+#whyHami .WhyTitle h3{
+    color: #790153;
+}
+.FadeStyle {
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+#whyHami .boxHami{
+    width: 100%;
+    height: 100%;
+    margin: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+}
+#whyHami .boxHami .boxInfo{
+    width: 45%;
+    height: 100%;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: column;
+    text-align: right;
+}
+#whyHami .boxHami .boxImage{
+    width: 45%;
+    height: 100%;
+    margin: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#whyHami .boxHami .textWhy{
+    direction: rtl;
+    line-height: 35px;
+}
+#whyHami .boxHami .textWhy h3{
+    direction: rtl;
+    text-align: right;
+    width: 100%;
+}
+#whyHami .imageWhy{
+    width: 15rem;
+    height: 13rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#whyHami .imageWhy img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+
+@media (max-width: 565px) {
+    #whyHami {
+        height:190rem;
+        margin-top: -5rem;
+    }
+    #whyHami .WhyTitle h3{
+        font-size: 15px;
+    }
+    #whyHami .boxHami{
+        flex-direction: column;
+    }
+    #whyHami .boxHami .boxInfo{
+        width: 100%;
+        order: 2;
+    }
+    #whyHami .boxHami .boxImage{
+        width: 45%;
+        height: 100%;
+        margin: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        order: 1;
+    }
+}

@@ -1,0 +1,124 @@
+#Header {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 3rem;
+}
+#Header header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#Header .rightInfoLogo{
+    height: 4rem;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+}
+#Header .logo{
+    width: 3rem;
+    height: 4rem;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+#Header .storeExit{
+    height: 2rem;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#Header .storeExit .imgStore{
+    width: 1.7rem;
+    margin: 0 0.3rem;
+}
+#Header .logo .imageLogo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+#Header .loginTitle{
+    display: flex;
+    position: relative;
+    justify-content: left;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    color: black;
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; 
+    background-color: #EC7F6F;
+    cursor: pointer;
+}
+#Header .LeftInfo{
+    width: 20rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#Header .loginTitle:hover{
+    background-color: #ec806fc6;
+
+}
+#Header .loginTitle:active{
+    box-shadow: none;
+}
+#Header .loginTitle a{
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+
+@media (max-width: 565px) {
+    #Header {
+        height: 2rem;
+        z-index: 10;
+
+    }
+    #Header .logo{
+        width: 3rem;
+        height: 2.5rem;
+    }
+    #Header .loginTitle a{
+        font-size: 10px;
+      
+      }
+      #Header .loginTitle{
+    
+    padding: 0.2rem 2rem;
+   
+}
+#Header .storeExit .imgStore{
+    width: 1.2rem;
+    margin: 0 0.3rem;
+}
+}
+
+@media (max-width:560px){
+    #Header .logo{
+        width: 3rem;
+        height: 3rem;
+       
+    }
+    #Header {
+        width: 100%;
+        height: 4rem;
+    }
+
+    #Header .LeftInfo{
+        width: 15rem;
+        margin-left: -3rem;
+    }
+      
+}

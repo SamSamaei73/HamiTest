@@ -1,0 +1,208 @@
+#DashboardExam {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#DashboardExam .TitleStyleExam{
+   width: 100%;
+   padding: 2rem 1rem;
+   direction: rtl;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-weight: bold;
+
+}
+#DashboardExam .TitleStyleExam h3{
+  font-weight: bold;
+
+}
+
+ .examRoll{ 
+  width: 100%;
+  height: 12rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ .examRoll .rolls{ 
+  width: 15rem;
+  height: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stylePhoto{ 
+  width: 2rem;
+  height: 2rem;
+}
+
+:root{
+    --background-dark: #2d3548;
+    --text-light: rgba(255,255,255,0.6);
+    --text-lighter: rgba(255,255,255,0.9);
+    --spacing-s: 8px;
+    --spacing-m: 16px;
+    --spacing-l: 24px;
+    --spacing-xl: 32px;
+    --spacing-xxl: 10px;
+    --width-container: 1200px;
+    
+  }
+  
+ 
+  
+ 
+  .hero-section{
+      width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: var(--spacing-xxl) var(--spacing-l);
+    flex-direction: column;
+  }
+
+  .card-grid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: var(--spacing-l);
+    grid-row-gap: var(--spacing-l);
+    max-width: var(--width-container);
+    width: 100%;
+    align-content: space-around;
+    direction: rtl;
+
+  }
+  
+  @media(min-width: 540px){
+    .card-grid{
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+  
+  @media(min-width: 960px){
+    .card-grid{
+      grid-template-columns: repeat(4, 1fr); 
+    }
+  }
+  
+  
+  .card{
+    list-style: none;
+    position: relative;
+    height: 15rem;
+    background-color: #2d354800;
+    border: none;
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    border-radius: var(--spacing-l);
+    overflow: hidden;
+    
+
+  }
+  .freeCost{
+    width: 20rem;
+    height: 2rem;
+    background-color: red;
+    z-index: 100;
+    position: absolute;
+    top: 20px;
+    left: -120px;
+    -ms-transform: rotate(-40deg); /* IE 9 */
+  transform: rotate(-40deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding-top: 7px;
+  }
+  
+  .card:before{
+    content: '';
+    display: block;
+    padding-bottom: 150%;
+    width: 100%;
+  }
+  
+
+
+  
+  .card__background{
+    background-size: cover;
+    background-position: center;
+    border-radius: var(--spacing-l);
+    bottom: 0;
+    filter: brightness(0.75) saturate(1.2) contrast(0.85);
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform-origin: center;
+    trsnsform: scale(1) translateZ(0);
+    transition: 
+      filter 200ms linear,
+      transform 200ms linear;
+  }
+  .lockCard {
+    filter: brightness(0.7) saturate(1) contrast(2) blur(5px);
+    cursor: not-allowed;
+    pointer-events: none;  
+
+  }
+   
+  
+  
+  .card:hover .card__background{
+    transform: scale(1.05) translateZ(0);
+  }
+  
+  .card-grid:hover > .card:not(:hover) .card__background{
+    filter: brightness(0.5) saturate(2) contrast(1.2) blur(5px);
+  }
+  
+  .card__content{
+    right: 0;
+    padding: var(--spacing-l);
+    position: absolute;
+    top: 0;
+    direction: rtl;
+  }
+  
+  .card__category{
+    color: var(--text-light);
+    font-size: 0.9rem;
+    margin-bottom: var(--spacing-s);
+    text-transform: uppercase;
+  }
+  
+  .card__heading{
+    color: var(--text-lighter);
+    font-size: 1.9rem;
+    text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+    line-height: 1.4;
+    word-spacing: 100vw;
+  }
+
+  .PhotoBack1{background-image: url(../images/12.jpg);}
+  .PhotoBack2{background-image: url(../images/26.jpeg);}
+  .PhotoBack3{background-image: url(../images/10.jpg);}
+  .PhotoBack4{background-image: url(../images/13.jpg);}
+  .PhotoBack5{background-image: url(../images/5.jpg);}
+  .PhotoBack6{background-image: url(../images/9.jpg);}
+  .PhotoBack7{background-image: url(../images/3.jpg);}
+  .PhotoBack8{background-image: url(../images/25.png);}
+  .PhotoBack9{background-image: url(../images/15.jpeg);}
+  .PhotoBack10{background-image: url(../images/disc-500x394.jpg);}
+  .PhotoBack11{background-image: url(../images/18.jpeg);}
+  .PhotoBack12{background-image: url(../images/19.jpeg);}
+  .PhotoBack13{background-image: url(../images/2.jpg);}
+  .PhotoBack14{background-image: url(../images/20.jpeg);}
+  .PhotoBack15{background-image: url(../images/11.jpg);}
+  .PhotoBack16{background-image: url(../images/14.jpg);}
+  .PhotoBack17{background-image: url(../images/28.jpeg);}
+  .PhotoBack18{background-image: url(../images/81.webp);}
+  .PhotoBack19{background-image: url(../images/82.png);}
+  .PhotoBack20{background-image: url(../images/HEXACO_1.png);}

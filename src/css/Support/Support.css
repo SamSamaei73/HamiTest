@@ -1,0 +1,17 @@
+.aboutUs {
+    width: 90%;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: right;
+    padding: 0 3rem;
+    color: #fff;
+}
+.aboutUs p {
+    text-align: right;
+    direction: rtl;
+    margin-top: 2rem;
+    line-height: 30px;
+    color: #fff;
+}

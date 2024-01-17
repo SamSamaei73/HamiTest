@@ -1,0 +1,43 @@
+
+@font-face {
+  font-family: 'Tanha';
+  src: local('Tanha'), url(/src/fonts/Tanha.woff.ttf) format('woff');
+
+}
+/* @font-face {
+  font-family: 'Yekan';
+  src: local('Yekan'), url(/src/fonts/Yekan.ttf) format('woff');
+
+} */
+
+@font-face {
+  font-family: 'Yekan';
+  src: url('/src/fonts/Yekan.eot.ttf');
+  src:  url('/src/fonts/Yekan.woff.ttf') format('woff'), url('/src/fonts/Yekan.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  unicode-range: U+0600â€“06FF;
+  }
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Yekan';
+  min-height: 100vh;
+}
+
+body .container {
+  display: flex;
+  max-width: 1900px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: -0.1rem;
+}
+
+a {
+  text-decoration: none;
+}

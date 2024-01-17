@@ -1,0 +1,189 @@
+
+#InfoPerson  .mainInfo{
+    width: 95%;
+    background-color: #891b5736;
+    display: flex;
+    align-items: flex-start;
+    direction: rtl;
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+}
+#InfoPerson  .itemDashboard{
+    width: 12rem;
+    height: 12rem;
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+    justify-content: center;
+    padding: 1rem;
+    position: relative;
+}
+#InfoPerson  .itemDashboard img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+        box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        border-radius: 10px;
+
+}
+#InfoPerson  .itemInfo{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+    justify-content: start;
+    padding: 1rem 0.5rem;
+    flex-wrap: wrap;
+}
+#InfoPerson  .itemInfo .personal{
+    width: 16rem;
+    height: 3rem;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.3rem;
+}
+#InfoPerson  .itemInfo .special{
+    width: 50%;
+}
+#InfoPerson  .itemInfo .special input{
+    width: 90% !important;
+}
+#InfoPerson  .itemInfo .special label{
+    width: 25% !important;
+}
+#InfoPerson  .itemInfo .personal input{
+    margin-right: 1rem;
+    width: 70%;
+    border: 0;
+    background-color: #f1e1a600;
+}
+#InfoPerson  .itemInfo .personal input:focus{
+    outline: none;
+}
+#InfoPerson  .itemInfo .personal label{
+    margin-right: 1rem;
+    width: 50%;
+    border: 0;
+}
+#InfoPerson  .itemInfo .personal .topStyle{
+    font-size: 15px;
+}
+ #InfoPerson .btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .btn button{
+    padding: 0.4rem;
+    width: 10rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+    background-color: #891B58;
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+}
+.btn button:active{
+    box-shadow: none;
+}
+
+
+
+
+/* /////////////////////////////////////////////popup////////////////////////////////////////////////////// */
+.popup-content {
+    width: 90% !important;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.772) !important;
+    border: 0 !important;
+}
+
+
+ .popup-content .popupChange{
+    width: 25rem;
+    background-color: #f0e9ce;
+    display: flex;
+    padding: 2rem;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+}
+ .popup-content .popupChange .personal{
+    width: 100%;
+    padding: 1rem 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ .popup-content .popupChange input{
+    margin-right: 1rem;
+    width: 50%;
+    border: 0;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    text-align: center;
+}
+.equalPass{
+    color: red;
+    margin-top: 1rem;
+}
+.acceptChange{
+    color: rgb(60, 169, 86);
+    margin-top: 1rem;
+}
+
+
+
+@media (max-width:560px){
+    #InfoPerson  .itemInfo .personal{
+        width: 100%;
+        
+    }
+    #InfoPerson  .mainInfo{
+        flex-direction: column;
+    }
+    #InfoPerson{
+        order: 2;
+    }
+    #InfoPerson  .itemDashboard{
+        width: 10rem;
+        height: 10rem;
+        
+    }
+    #InfoPerson  .itemInfo{
+        width: 100%;
+    }
+
+}
+@media (min-width:560px) and (max-width:800px){
+    #InfoPerson  .itemDashboard{
+        width: 10rem;
+        height: 10rem;
+        
+    }
+    #InfoPerson  .mainInfo{
+        flex-direction: column;
+    }
+    #InfoPerson  .itemInfo .personal{
+        width: 15rem;
+    }
+    #InfoPerson  .itemInfo{
+        width: 100%;
+    }
+}
+

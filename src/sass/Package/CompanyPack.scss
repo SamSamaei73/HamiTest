@@ -1,0 +1,30 @@
+@import "../utilities";
+
+
+#CompanyPack {
+    width: 100%;
+    min-height: 100vh;
+    @include set-disply-top ;
+    flex-direction: column;
+
+    .selectExams {
+        width:100%;
+        @include set-disply-top ;
+        padding: 1rem;
+        flex-direction: column;
+        margin: 2rem 0;
+
+        .packageTitle {
+            width: 100%;
+            @include set-disply;
+            margin-bottom: 2rem;
+        }
+        .aboutCompTest{
+            width: 100%;
+            @include set-disply;
+            margin-bottom: 2rem;
+        }
+       
+        
+    }
+}

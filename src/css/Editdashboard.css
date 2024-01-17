@@ -1,0 +1,96 @@
+#Editdashboard {
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#Editdashboard .itemInfo{
+    background-color: #e2c2b9;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+    justify-content: start;
+    direction: rtl;
+    padding: 1rem 0.5rem;
+    flex-wrap: wrap;
+}
+#Editdashboard .itemInfo .personal{
+    width: 30%;
+    height: 3rem;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.3rem;
+    direction: rtl;
+}
+#Editdashboard .itemInfo .special{
+    width: 50%;
+}
+#Editdashboard .itemInfo .special input{
+    width: 90% !important;
+}
+#Editdashboard .itemInfo .special label{
+    width: 17% !important;
+}
+#Editdashboard .itemInfo .personal input{
+    margin-right: 1rem;
+    width: 70%;
+    border: 0;
+    height: 2rem;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    text-align: center;
+}
+#Editdashboard .itemInfo .personal input::-webkit-outer-spin-button,
+#Editdashboard .itemInfo .personal input::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+                }
+#Editdashboard .itemInfo .personal select{
+    margin-right: 1rem;
+    width: 70%;
+    border: 0;
+    height: 2rem;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    text-align: center;
+}
+#Editdashboard .itemInfo .personal label{
+    margin-right: 1rem;
+    width: 30%;
+    border: 0;
+}
+#Editdashboard .btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Editdashboard .DatePicker {
+    width: 70%;
+}
+#Editdashboard .btn button{
+    padding: 0.5rem;
+    width: 10rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    border: 0;
+    background-color: #881A56;
+    box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+}
+#Editdashboard .btn button:active{
+    box-shadow: none;
+}
+
+.important{
+    color: red;
+    
+}

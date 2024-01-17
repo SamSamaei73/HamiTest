@@ -1,0 +1,145 @@
+.Operations {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3px;
+  }
+  
+  .editBtn {
+    border: none;
+    border: 0.5px solid green;
+    margin: 0 3px;
+    /* height: 2rem; */
+    border-radius: 3px;
+    /* width: 3rem; */
+    font-family: "VazirDigit", "Vazir";
+    font-size: 13px !important;
+    text-align: center;
+    margin: 5px;
+    /* width: 7rem; */
+  }
+  .Operations input:focus {
+    /* outline: 1px auto cornflowerblue;
+  
+    margin: 5px; */
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    /* font-size: 13px !important; */
+  }
+  .Operations button:focus {
+    outline: 1px dotted;
+    outline: 2px auto cornflowerblue !important;
+    /* color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); */
+  }
+  .deleteBtn {
+    color: #fff;
+    border: none;
+    padding: 5px;
+    margin: 0 3px;
+    height: 2rem;
+    border-radius: 3px;
+    width: 3rem;
+    font-family: "Yekan";
+    text-align: center;
+    font-size: 11px !important;
+  }
+  
+   .scroll table {
+    /* border-collapse: separate; */
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    border-spacing: 2px;
+    font-variant: normal;
+    
+  }
+  
+  .scroll {
+    overflow: auto;
+    /* overflow-y:scroll; */
+    /* overflow-x:scroll; */
+    /* height: 51em; */
+    border-radius: 10px;
+    background-color: #FFC4C4 ;
+    color: black;
+    margin: auto;
+    text-align: center;
+
+  }
+  
+  .trheight {
+    height: 1rem;
+  }
+  .scroll thead input {
+    border-radius: 2px;
+    border: none;
+    background-color:azure;
+    text-align: center;
+    font-family: "Yekan";
+    /* font-size: 1rem; */
+    /* font-size: 13px !important; */
+  }
+   .scroll th {
+    font-size: 15px;
+    text-align: center !important;
+    text-transform: uppercase;
+    padding: 4px 4px;
+    color: #fff;
+    background-color: #EE6983;
+
+  }
+  .scroll tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: rgb(145, 0, 248) !;
+    
+    
+  }
+  .scroll tr:hover {background-color: #EE6983!;}
+  .scroll tr:nth-child(even) {background-color: #FFF5E4;}
+  .scroll tr:nth-child(even):hover{background-color: #EE6983;}
+  .scroll tbody {
+    font-family: "Yekan";
+    
+  
+  }
+  .scroll tbody tr td {
+    text-align: center;
+    padding: 10px 5px;
+    color: #16342a;
+    margin: 0;
+    font-size: 13px !important;
+    overflow: auto;
+    text-transform: uppercase;
+    box-shadow: none !important;
+  }
+  
+  .forSearch {
+    border-bottom: seagreen !important;
+    margin:3px;
+    padding:2px;
+    width: 4rem;
+    /* margin: 1rem; */
+  }
+  .rtlDir {
+    direction: rtl;
+  
+  }
+  .pagination {
+    font-family: "Yekan";
+  }
+  .striped{
+    width: 100%;
+  }
+  
